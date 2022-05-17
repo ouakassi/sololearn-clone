@@ -1,0 +1,34 @@
+@keyframes rotateImg {
+  10% {
+    transform: rotate(10deg);
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  75% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: rotate(-10deg);
+    transform: scale(1);
+  }
+}
+
+@keyframes opacityFide {
+  0% {
+    opacity: 0.2;
+  }
+  25% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "respondent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^7.14.0"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  },
+  "scripts": {
+    "compile:sass": "node-sass ./resources/scss/main.scss ./resources/css/styles.css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}
